@@ -6,7 +6,7 @@ html {
 body {
     background-color: #ffe8d6;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     max-width: 960px;
     margin: auto;
 }
@@ -39,7 +39,7 @@ green {
 }
 
 a {
-    font-size: 14px;
+    font-size: 16px;
     padding-bottom: 1em;
 }
 
