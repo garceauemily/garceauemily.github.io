@@ -6,25 +6,25 @@ html {
 body {
     background-color: #ffe8d6;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     max-width: 960px;
     margin: auto;
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2em;
     letter-spacing: .6em;
     padding-top: 1em;
     padding-bottom: 1em;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 1.6em;
     padding-bottom: 0em;
 }
 
 h3 {
-    font-size: 1.5em;
+    font-size: 1.4em;
     color: #40916c;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-bottom: 0em;
@@ -35,7 +35,7 @@ h4 {
 }
 
 a {
-    font-size: 1.3em;
+    font-size: 16px;
     padding-bottom: 1em;
 }
 
