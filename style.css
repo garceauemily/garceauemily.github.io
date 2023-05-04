@@ -1,10 +1,10 @@
 html {
-    background-color: #ffe8d6;
-    color: #023e8a;
+    background-color: #fefae0;
+    color: #303179;
 }
 
 body {
-    background-color: #ffe8d6;
+    background-color: #fefae0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.2em;
     max-width: 960px;;
@@ -25,17 +25,17 @@ h2 {
 
 h3 {
     font-size: 1.3em;
-    color: #40916c;
+    color: #de5499;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-bottom: 0em;
 }
 
 h4 {
-    color: #40916c
+    color: #de5499
 }
 
 green {
-    color: #40916c
+    color: #de5499
 }
 
 a {
