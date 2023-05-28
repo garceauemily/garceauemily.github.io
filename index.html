@@ -1,106 +1,102 @@
 <html>
     <head>
-        <link href="style.css" rel="stylesheet">
         <meta charset="UTF-8">
         <title> Emily Garceau </title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-        <meta name="keywords" content="Emily Garceau,garceauemily,Emily,Garceau">
-        <meta name="author" content="Emily Garceau">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=IBM+Plex+Mono:wght@500&family=Instrument+Serif&family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">        <meta name="author" content="Emily Garceau">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- meta http-equiv = "refresh" content = "30" -->
     </head>
     <body>
         <header id="header">
             <div>
-                <h1><b>Emily Garceau</b></h1>
-                <hr>
-                <h2 style="color:#DB438F"><b>Computer Engineering PhD Student</b></h2>
-                <hr>
-                <img src = "ProfilePic_BW_circle.png" alt = "Profile Picture">
+                <img src="full-body.png" alt="Picture of Emily standing in her cap and gown." id="full_body">
+                <h1 id="title"><p>Emily</p>Garceau</h1>
+                <!-- About -->
+                <a id="about">Hello! My name is <strong>Emily Garceau</strong>,and I recently graduated from Clemson University with my bachelor's degree in Computer Engineering. I am now a first-year PhD student at North
+                Carolina State University. My interests lie in the intersection of <b>bioelectronics</b>, 
+                <b>human computer interaction</b>, <b>wearable technology</b>, and <b>mobile health</b>.</a>
             </div>
         </header>
 
         <main>
-            <!-- About -->
-            <section>
-                <h2><b>About</b></h2>
-                <p>Hello! My name is Emily Garceau, and I am a first-year PhD student at North
-                Carolina State University. My interests lie in the intersection of <b>bioelectronics</b>, 
-                <b>human computer interaction</b>, <b>wearable technology</b>, and 
-                <b>mobile health</b>.</p>
-            </section>
             <!-- Contact -->
-            <section>
-                <h2><b>Contact</b></h2>
+            <section id="contact">
                 <!-- Personal Email -->
-                <p>
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span class="contact_link">
+                    <i class="fa fa-envelope" aria-hidden="true" href="mailto:garceauemily@gmail.com" target="_blank"></i>
                     <a href="mailto:garceauemily@gmail.com" target="_blank">garceauemily@gmail.com</a>
-                </p>
+                </span>
                 <!-- Work Email -->
-                <p>
+                <span class="contact_link" id="school_email">
                     <i class="fa fa-envelope" aria-hidden="true"></i>
                     <a href="mailto:egarcea@ncsu.edu" target="_blank">egarcea@ncsu.edu</a>
-                </p>
+                </span>
                 <!-- LinkedIn -->
-                <p>
+                <span class="contact_link">
                     <i class="fab fa-linkedin" aria-hidden="true"></i>
                     <a href="https://www.linkedin.com/in/emily-garceau" target="_blank">linkedin.com/in/emily-garceau</a>
-                </p>
+                </span>
             </section>
             <!-- Education -->
-            <section>
-                <h2><b>Education</b></h2>
+            <section id="education" class="row">
+                <h2>Education</h2>
                 <!-- NC State -->
-                <div>
-                    <p>
-                        <h3>PhD Student in <b>Computer Engineering</b></h3>
-                        <h4>North Carolina State University | 2023-Present</h4>
-                        <ul>
-                            <li>Provost's Doctoral Fellowship Recipient</li>
-                            <li>University Graduate Fellowship Recipient</li>
-                            <li>Graudate Merit Award Recipient</li>
-                        </ul>
-                    </p>
+                <div class="column">
+                <div id="NC_State" class="box-shadow">
+                    <h3>PhD Student in Computer Engineering</h3>
+                    <h4>North Carolina State University | 2023-Present</h4>
+                    <p>Provost's Doctoral Fellowship Recipient</p>
+                    <p>University Graduate Fellowship Recipient</p>
+                    <p>Graudate Merit Award Recipient</p>
+                </div>
                 </div>
                 <!-- Clemson -->
-                <div>
-                    <p>
-                        <h3>Bachelor of Science in <b>Computer Engineering</b></h3>
-                        <h4><b>Clemson University Honors College</b> | 2019-2023</h4>
-                    </p>
-                    <ul>
-                    <li>GPA: 4.0</li>
-                    <li>President's List 2019-2023</li>
-                    <li>Palmetto Fellows Scholarship Recipient</li>
-                    </ul>
+                <div class="column">
+                <div id="Clemson" class="box-shadow">
+                    <h3>Bachelor of Science in Computer Engineering</h3>
+                    <h4>Clemson University Honors College | 2019-2023</h4>
+                    <p>GPA: 4.0</p>
+                    <p>President's List 2019-2023</p>
+                    <p>Rhodes Most Outstanding Senior in Computer Engineering</p>
+                    <p>Faculty Scholars Award Recipient</p>
+                    <p>Palmetto Fellows Scholarship Recipient</p>
+                </div>
                 </div>
             </section>
             <!-- Research -->
-            <section>
-                <h2><b>Research</b></h2>
+            <section id="research" class="row">
+                <h2>Research</h2>
                 <!-- Hoover Research -->
-                <div>
+                <div class="column">
+                <div id="finger_tracking" class="box-shadow">
                     <h3>Tracking Finger and Hand Motion Related to Eating</h3>
                     <p>January-May 2023: I researched different forms of <b>wearable technology</b> to detect eating behavior under the guidance of <u><a href="https://cecas.clemson.edu/~ahoover/" target="_blank">Dr. Hoover</u></a> at Clemson University</p>
                     <ul>
                         <li>Custom development programming <b><a href="https://github.com/genkiinstruments/genki-wave" target="_blank">(GitHub)</a></b> for obtaining sensor measurements from a <b><a href="https://genkiinstruments.com/products/wave" target="_blank"> smart ring</a></b> to support finger tracking research</li>
                     </ul>
                 </div>
+                </div>
                 <!-- Calhoun Research -->
-                <div>
+                <div class="column">
+                <div id="data_compression" class="box-shadow">
                     <h3>Data Compression - NSF REU</h3>
                     <p>January-February 2023: I researched data compression methods as a <b><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1943114&HistoricalAwards=false" target="_blank">National Science Foundation REU</a></b> student with <u><a href="https://jonccal.people.clemson.edu/" target="_blank">Dr. Calhoun</a></u> at Clemson University</p>
                     <ul>
                         <li>Evaluated data management runtime on a diverse set of proxy application and production-level applications with varying memory requirements, communication computation ratios, communication patterns, and data access patterns</li>
                     </ul>
                 </div>
+                </div>
             </section>
             <!-- Work Experience -->
-            <section>
-                <h2><b>Work Experience</b></h2>
+            <section id="work">
+                <h2>Work Experience</h2>
+                    <div class="row">
                     <!-- Cadence Design Systems -->
-                    <div>
+                    <div class="column">
+                    <div id="cadence" class="box-shadow">
                         <h3><b>Cadence Design Systems</b> | WFO Application Engineer Intern</h3>
                         <h4><b>San Jose, CA</b> | May 2023-August 2023</h4>
                         <ul>
@@ -112,8 +108,19 @@
 
                         </ul>
                     </div>
+                    <!-- Clemson UTA -->
+                    <div id="uta" class="box-shadow">
+                        <h3><b>Clemson University</b> | Undergraduate Teaching Assistant</h3>
+                        <h4><b>Clemson, SC</b> | August 2020-December 2020</h4>
+                        <ul>
+                            <li>Aided general engineering professor by answering questions and explaining material in class of 40+ students</li>
+                            <li>Tutored student individuals and groups using collaborative methods to provide support and strengthen understanding</li>
+                        </ul>
+                    </div>
+                    </div>
                     <!-- Delta Air Lines -->
-                    <div>
+                    <div class="column">
+                    <div id="delta" class="box-shadow">
                         <h3><b>Delta Air Lines</b> | Simulator Engineering Co-Op</h3>
                         <h4><b>Atlanta, GA</b> | January 2021-July 2022</h4>
                         <ul>
@@ -130,23 +137,18 @@
                             <li>Worked with engineers from other companies to troubleshoot and implement software corrections</li>
                         </ul>
                     </div>
-                    <!-- Clemson UTA -->
-                    <div>
-                        <h3><b>Clemson University</b> | Undergraduate Teaching Assistant</h3>
-                        <h4><b>Clemson, SC</b> | August 2020-December 2020</h4>
-                        <ul>
-                            <li>Aided general engineering professor by answering questions and explaining material in class of 40+ students</li>
-                            <li>Tutored student individuals and groups using collaborative methods to provide support and strengthen understanding</li>
-                        </ul>
+                    </div>
                     </div>
             </section>
             <!-- Leadership -->
-            <section>
-                <h2><b>Leadership</b></h2>
+            <section id="leadership">
+                <h2>Leadership</h2>
                 <!-- Eta Kappa Nu -->
-                <div>
+                <div class="row">
+                <div class="column">
+                <div id="hkn" class="box-shadow">
                     <h3><b>Eta Kappa Nu (IEEE-HKN)</b> - Vice President</h3>
-                    <p><green><b>2022-2023</b></green></p>
+                    <p>2022-2023</p>
                     <p><b>Electrical and Computer Engineering <u><a href="https://hkn.ieee.org/about" target="_blank">Honor Society</a></u></b> for top 1/5 of sophomores, 1/4 of juniors, and 1/3 of seniors </p>
                     <ul>
                         <li>Organized annual career fair for 100+ Electrical and Computer Engineering students and 12 companies totaling 20+ representatives</li>
@@ -157,10 +159,12 @@
                         <li>Volunteered with other club members at a local elementary school's STEM night</li>
                     </ul>
                 </div>
+                </div>
                 <!-- CECAS SAB -->
-                <div>
+                <div class="column">
+                <div id="cecas" class="box-shadow">
                     <h3><b>CECAS Undergraduate Student Advisory Board</b> - ECE Representative</h3>
-                    <p><green><b>2022-2023</b></green></p>
+                    <p>2022-2023</p>
                     <p><b>College of Engineering, Computing, and Applied Sciences</b> at Clemson University</p>
                     <ul>
                         <li>Created a partnership between the college and Tigertown Graphics to design and sell custom CECAS t-shirts individualized for each major</li>
@@ -171,77 +175,227 @@
                         <li>Distributed information to the ECE department's student body</li>
                     </ul>
                 </div>
+                </div>
+            </div>
             </section>
             <!-- Honors -->
-            <section>
+            <section id="honors">
                 <h2><b>Honors</b></h2>
-                <div>
-                    <ul>
-                        <li><green><b>Rhode's Most Outstanding Senior in Computer Engineering</b></green> for the 2022-2023 academic year in the Holcombe Department of Electrical and Computer Engineering at Clemson University</li>
-                        <li><green><b>Eta Kappa Nu Zeta Iota</b></green> - Electrical and Computer Engineering Honor Society at Clemson University for top 1/5 of sophomores, 1/4 of juniors, and 1/3 of seniors</li>
-                        <li>Appointed to the <green><b>CECAS Undergraduate Student Advisory Board</b></green> by the chair and faculty advisor of the Holcombe Department of Electrical and Computer Engineering to serve as one of three ECE student representatives</li>
-                        <li>Invited to attend Clemson University's annual <u><b><a href="https://www.clemson.edu/cecas/departments/ece/faculty_staff/boardmembers.html" target="_blank">ECE External Board of Advocates</a></b></u> 2022 meeting as one of five ECE students to provide undergraduate feedback to industry leaders</li>
-                        <li><u><b><a href="http://honors.sites.clemson.edu/" target="_blank">President's List</a></b></u> at Clemson University Fall 2019-Fall 2022</li>
-                    </ul>
+                <div class="row">
+                        <div class="column">
+                        <p id="rhodes" class="box-shadow"><pink><b>Rhode's Most Outstanding Senior in Computer Engineering</b></pink> for the 2022-2023 academic year in the Holcombe Department of Electrical and Computer Engineering at Clemson University</p>
+                        </div>
+                        <div class="column">
+                        <p id="faculty" class="box-shadow"><pink><b>Faculty Scholar Award</b></pink> at Clemson University upon 2023 graduation</p>
+                        </div>
+                </div>
+                <div class="row">
+                        <div class="column">
+                        <p id="honor_society" class="box-shadow"><pink><b>Eta Kappa Nu Zeta Iota</b></pink> - Electrical and Computer Engineering Honor Society at Clemson University for top 1/5 of sophomores, 1/4 of juniors, and 1/3 of seniors</p>
+                        </div>
+                        <div class="column">
+                        <p id="sab" class="box-shadow">Appointed to the <pink><b>CECAS Undergraduate Student Advisory Board</b></pink> by the chair and faculty advisor of the Holcombe Department of Electrical and Computer Engineering to serve as one of three ECE student representatives</p>
+                        </div>
+                </div>
+                <div class="row">
+                        <div class="column">
+                        <p id="eboa" class="box-shadow">Invited to attend Clemson University's annual <u><b><a href="https://www.clemson.edu/cecas/departments/ece/faculty_staff/boardmembers.html" target="_blank">ECE External Board of Advocates</a></b></u> 2022 meeting as one of five ECE students to provide undergraduate feedback to industry leaders</p>
+                        </div>
+                        <div class="column">
+                        <p id="presidents_list" class="box-shadow"><u><b><a href="http://honors.sites.clemson.edu/" target="_blank">President's List</a></b></u> at Clemson University Fall 2019-Spring 2023<p>
+                        </div>
                 </div>
             </section>
             <!-- Technical Skills -->
-            <section>
+            <section id="technical">
                 <h2><b>Technical Skills</b></h2>
-                <div>
-                    <p>C/C++ ●●●●○</p>
-                    <p>Python ●●●●○</p>
-                    <p>FORTRAN ●●●●○</p>
-                    <p>Visual Studio Code ●●●●○</p>
-                    <p>GDB ●●●●○</p>
-                    <p>MATLAB ●●●●○</p>
-                    <p>Unix ●●●●○</p>
-                    <p>Logisim ●●●●○</p>
-                    <p>LTspice ●●●●○</p>
-                    <p>Adobe Creative Suite ●●●○○</p>
-                    <p>Digital Works ●●●○○</p>
-                    <p>VHDL ●●●○○</p>
-                    <p>Prolog ●●●○○</p>
-                    <p>LaTeX ●●●○○</p>
-                    <p>HTML ●●●○○</p>
-                    <p>CSS ●●●○○</p>
-                    <p>JavaScript ●●○○○</p>
+                <div class="row">
+                    <div class="column">
+                    <!--p>C/C++ ●●●●○ </p-->
+                    <div class="prog_container">
+                        <div class="percentage">85%</div>
+                        <div class="prog_val red" style="width:85%;">
+                            <div class="skill">C/C++</div>
+                        </div>
+                    </div>
+                    <!--p>Python ●●●●○</p-->
+                    <div class="prog_container">
+                        <div class="percentage">75%</div>
+                        <div class="prog_val orange" style="width:75%;">
+                            <div class="skill">Python</div>
+                        </div>
+                    </div>
+                    <!--p>FORTRAN ●●●●○</p-->
+                    <div class="prog_container">
+                        <div class="percentage">85%</div>
+                        <div class="prog_val yellow" style="width:85%;">
+                            <div class="skill">FORTRAN</div>
+                        </div>
+                    </div>
+                    <!--p>Visual Studio Code ●●●●○</p-->
+                    <div class="prog_container">
+                        <div class="percentage">85%</div>
+                        <div class="prog_val green" style="width:85%;">
+                            <div class="skill">Visual Studio Code</div>
+                        </div>
+                    </div>
+                    <!--p>GDB ●●●●○</p-->
+                    <div class="prog_container">
+                        <div class="percentage">85%</div>
+                        <div class="prog_val blue" style="width:85%;">
+                            <div class="skill">GDB</div>
+                        </div>
+                    </div>  
+                    </div>
+                    <div class="column">
+                    <!--p>MATLAB ●●●●○</p-->
+                    <div class="prog_container">
+                        <div class="percentage">80%</div>
+                        <div class="prog_val red" style="width:80%;">
+                            <div class="skill">MATLAB</div>
+                        </div>
+                    </div>
+                    <!--p>Unix ●●●●○</p-->
+                    <div class="prog_container">
+                        <div class="percentage">80%</div>
+                        <div class="prog_val orange" style="width:80%;">
+                            <div class="skill">Unix</div>
+                        </div>
+                    </div>
+                    <!--p>Logisim ●●●●○</p-->
+                    <div class="prog_container">
+                        <div class="percentage">80%</div>
+                        <div class="prog_val yellow" style="width:80%;">
+                            <div class="skill">Logisim</div>
+                        </div>
+                    </div>
+                    <!--p>LTspice ●●●●○</p-->
+                    <div class="prog_container">
+                        <div class="percentage">85%</div>
+                        <div class="prog_val green" style="width:85%">
+                            <div class="skill">LTspice</div>
+                        </div>
+                    </div>
+                    <!--p>Adobe Creative Suite ●●●○○</p-->
+                    <div class="prog_container">
+                        <div class="percentage">75%</div>
+                        <div class="prog_val blue" style="width:75%">
+                            <div class="skill">Adobe Creative Suite</div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="row"> 
+                    <div class="column">
+                    <!--p>Digital Works ●●●○○</p-->
+                    <div class="prog_container">
+                        <div class="percentage">75%</div>
+                        <div class="prog_val red" style="width:75%">
+                            <div class="skill">Digital Works</div>
+                        </div>
+                    </div>
+                    <!--p>VHDL ●●●○○</p-->
+                    <div class="prog_container">
+                        <div class="percentage">75%</div>
+                        <div class="prog_val orange" style="width:75%">
+                            <div class="skill">VHDL</div>
+                        </div>
+                    </div>
+                    <!--p>Prolog ●●●○○</p-->
+                    <div class="prog_container">
+                        <div class="percentage">75%</div>
+                        <div class="prog_val yellow" style="width:75%">
+                            <div class="skill">Prolog</div>
+                        </div>
+                    </div>
+                    <!--p>Ocaml ●●●○○</p-->
+                    <div class="prog_container">
+                        <div class="percentage">60%</div>
+                        <div class="prog_val green" style="width:60%">
+                            <div class="skill">Ocaml</div>
+                        </div>
+                    </div>
+                    <!--p>LaTeX ●●●○○</p-->
+                    <div class="prog_container">
+                        <div class="percentage">75%</div>
+                        <div class="prog_val blue" style="width:75%">
+                            <div class="skill">LaTeX</div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="column">
+                    <!--p>HTML ●●●○○</p-->
+                    <div class="prog_container">
+                        <div class="percentage">50%</div>
+                        <div class="prog_val red" style="width:50%">
+                            <div class="skill">HTML</div>
+                        </div>
+                    </div>
+                    <!--p>CSS ●●●○○</p-->
+                    <div class="prog_container">
+                        <div class="percentage">50%</div>
+                        <div class="prog_val orange" style="width:50%">
+                            <div class="skill">Ocaml</div>
+                        </div>
+                    </div>
+                    <!--p>JavaScript ●●○○○</p-->
+                    <div class="prog_container">
+                        <div class="percentage">20%</div>
+                        <div class="prog_val yellow" style="width:20%">
+                            <div class="skill">JavaScript</div>
+                        </div>
+                    </div>
+                    </div>
                 </div>
             </section>
             <!-- Relevant Courses -->
-            <section>
-                <h2><b>Relevant Courses</b></h2>
-                <div>
-                    <p>Electric Circuits</p>
-                    <p>Electronics</p>
-                    <p>Logic & Computing Devices</p>
-                    <p>Computer Organization</p>
-                    <p>Microcontroller Interfacing</p>
-                    <p>Operating Systems</p>
-                    <p>Digital Computer Design</p>
-                    <p>Integrated System Design</p>
-                    <p>Linear Control Systems</p>
-                    <p>Computer Vision</p>
-                    <p>Random Signal Analysis</p>
-                    <p>Computer Ethics</p>
-                    <p>Embedded Computing</p>
-                    <p>Computer Networks</p>
-                    <p>Linear Algebra</p>
-                    <p>Discrete Mathematical Structures</p>
+            <section id="courses">
+                <h2>Relevant Courses</h2>
+                <div class="row">
+                <div class="one_column">
+                <div class="box-shadow">
+                    <div class="row">
+                        <div class="column">
+                            <p>Electric Circuits</p>
+                            <p>Electronics</p>
+                            <p>Logic & Computing Devices</p>
+                            <p>Computer Organization</p>
+                            <p>Microcontroller Interfacing</p>
+                            <p>Operating Systems</p>
+                            <p>Digital Computer Design</p>
+                            <p>Integrated System Design</p>
+                        </div>
+                        <div class="column">
+                            <p>Linear Control Systems</p>
+                            <p>Computer Vision</p>
+                            <p>Random Signal Analysis</p>
+                            <p>Computer Ethics</p>
+                            <p>Embedded Computing</p>
+                            <p>Computer Networks</p>
+                            <p>Linear Algebra</p>
+                            <p>Discrete Mathematical Structures</p>
+                        </div>
+                    </div>
                 </div>
+                </div>
+            </div>
             </section>
             <!-- Professional Skills -->
-            <section>
-                <h2><b>Professional Skills</b></h2>
-                <div>
+            <section id="professional">
+                <h2>Professional Skills</h2>
+                <div class="row">
+                <div class="one_column">
+                <div class="box-shadow">
                     <p>Technical Writing</p>
                     <p>Organizing Meetings</p>
                     <p>Mentoring/Tutoring</p>
                     <p>Project Management</p>
                     <p>Research & Analytics</p>
                 </div>
+                </div>
+                </div>
             </section>
         </main>
-        
+
     </body>
 </html>
