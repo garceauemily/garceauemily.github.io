@@ -1,40 +1,22 @@
 html {
-    background-color: #e7d8c9;
-    color: #303179;
+    width: 100vw;
+    margin: 0em 0em 0em -0.45em;
 }
 
 body {
+    background-color: #F6EADA;
+}
+/*body {
     background-color: #e7d8c9;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.2em;
-    max-width: 960px;;
-    margin: auto;
+    //max-width: 960px;
+}*/
+section {
+    display: block;
 }
 
-h1 {
-    font-size: 2.4em;
-    letter-spacing: .3em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
-
-h2 {
-    font-size: 1.5em;
-    padding-bottom: 0em;
-}
-
-h3 {
-    font-size: 1.3em;
-    color: #DB438F;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-bottom: 0em;
-}
-
-h4 {
-    color: #DB438F
-}
-
-green {
+pink {
     color: #DB438F
 }
 
@@ -46,46 +28,226 @@ a {
 main { 
     /* display: grid;
     grid-template-columns: 40% 60%; */
-    /* margin-top: 3em; */
-    margin: auto 1em 2em 2em;
-    padding-bottom: 4em;
+    //margin-top: 12em;
+    /*margin: auto 1em 2em 2em;*/
+    //padding-bottom: 4em;
 }
 
-header {
-    text-align: center;
-    margin: auto 2em;
-}
-
-section {
-    margin: auto 1em 2em 2em;
-}
+/*section {
+    //margin: auto 1em 2em 2em;
+}*/
 
 i {
     font-size: 1.3em;
     margin-right: .5em;
 }
 
+strong {
+    font-weight: 900;
+}
+
 p {
     margin: .2em auto
 }
 
-hr {
+/*hr {
     border: none;
     background-color: lightgray;
     height: 1px;
-}
-
-h1, h2, h3 {
-    font-weight: 100;
-    margin-bottom: 0;
-}
-
-img {
-    padding-top: 1em;
-    width: 50%;
-    height: auto;
-}
-
-/*#mainLeft {
-    border-right: 1px solid lightgray;
 }*/
+
+#header {
+    //text-align: center;
+    //position: fixed;
+    //top: 0px;
+    width: 100vw;
+    background-color: #F6EADA;
+    color: #000000;
+    margin: -0.5em 0em;
+    font-family: 'Instrument Serif', serif;
+}
+
+#full_body {
+    width: 50vw;
+    height: auto;
+    max-height: 100vh;
+    max-width: 66.7vh;
+    display: inline-block;
+    margin: 0em;
+}
+
+#title {
+    font-size: min(5vh,5vw);
+    letter-spacing: 0.05em;
+    text-align: left;
+    font-family: 'Instrument Serif', serif;
+    padding: 0.2em 0.4em 0.4em 0.4em;
+    background-color: #F6EADA;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.07em;
+    display: inline-block;
+    max-width: 33vw;
+    max-height: 50vh;
+    position: absolute;
+    left: 40vw;
+    z-index: 2;
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+}
+
+#about {
+    font-size: 3vw;
+    text-align: left;
+    letter-spacing: 0.01em;
+    display: inline-block;
+    z-index: 1;
+    position: absolute;
+    top: min(25vh,25vw);
+    padding: 1em;
+}
+
+#contact {
+    background-color: #F6EADA;
+    font-family: 'Instrument Serif', serif;
+    font-size: 2vw;
+    letter-spacing: 0.05em;
+    color: #000000;
+    //margin: 0.2em 0em 0em -0.2em;
+    padding: 1em;
+    display: table;
+    width: 99vw;
+    table-layout: fixed;
+}
+
+.contact_link {
+    display: table-cell;
+    text-align: left;
+}
+
+/*#school_email {
+    text-align: center;
+}*/
+
+.box-shadow {
+    //box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+    border-radius: 3em;
+    //margin: 1em;
+    padding: 2em;
+}
+
+.red {
+    background-color:rgb(255, 85, 85);
+}
+
+.orange {
+    background-color:rgb(255, 156, 85);
+}
+
+.yellow {
+    background-color:rgb(255, 217, 19);
+}
+
+.green {
+    background-color:rgb(31, 193, 27);
+}
+
+.blue {
+    background-color:rgb(85, 91, 255);
+}
+
+#education, #research, #work, #leadership, #honors, #technical, #courses, #professional {
+    background-color: #F6EADA;;
+    color: #000000;
+    font-family: 'Instrument Serif', serif;
+    letter-spacing: 0.01em;
+    text-align: center;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+#NC_State, #Clemson, #finger_tracking, #data_compression, #cadence, 
+#delta, #uta, #hkn, #cecas, #rhodes, #faculty, #honor_society, #sab,
+#eboa, #presidents_list, #professional {
+    min-width: fit-content;
+    margin: 6vw;
+    margin-top: 0.5em;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.one_column {
+    margin: auto;
+    width: fit-content;
+    padding-bottom: 2em;
+    margin-top: 0em;
+}
+
+#professional {
+}
+
+ul {
+    text-align: left;
+    font-size: 1.1em;
+}
+
+.prog_container {
+    margin: auto;
+    border-style: solid;
+    border-width: 0.13em;
+    width: 45vw;
+    height: 1.8em;
+    text-align: right;
+    font-size: 1.3em;
+    border-radius: 0.75em;
+    margin-bottom: 1em;
+}
+
+.prog_val {
+    //background-color: #DB438F;
+    //background-color: rgb(85, 91, 255);
+    width: 0%;
+    height: 1.8em;
+    text-align: left;
+    float: left;
+    border-radius: 0.6em;
+}
+
+.percentage {
+    float: right;
+    padding-top: 0.25em;
+    padding-right: 0.25em;
+}
+
+.skill {
+    float: left;
+    padding-top: 0.25em;
+    padding-left: 0.25em;
+}
+
+h2 {
+    font-size: 3.5em;
+    font-weight: bolder;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    font-size: 1.8em;
+    margin-top: 0em;
+}
+
+h4 {
+    font-size: 1.4em;
+}
