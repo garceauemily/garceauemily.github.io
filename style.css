@@ -97,7 +97,8 @@ p {
     letter-spacing: 0.01em;
     display: inline-block;
     z-index: 1;
-    padding: 0.5em 1em 1em 1em;
+    padding: 1em;
+    position: absolute;
 }
 
 @media screen only and (min-width: 2000px) {
