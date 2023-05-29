@@ -92,13 +92,14 @@ p {
 }
 
 #about {
-    font-size: 0.99em;
+    font-size: 0.97em;
     text-align: right;
     letter-spacing: 0.01em;
     display: inline-block;
     z-index: 1;
-    padding: 1em;
+    padding: 0.5em 1em 1em 1em;
     position: absolute;
+    //margin-left: 3em;
 }
 
 @media screen only and (min-width: 2000px) {
