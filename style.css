@@ -25,18 +25,6 @@ a {
     padding-bottom: 1em;
 }
 
-main { 
-    /* display: grid;
-    grid-template-columns: 40% 60%; */
-    //margin-top: 12em;
-    /*margin: auto 1em 2em 2em;*/
-    //padding-bottom: 4em;
-}
-
-/*section {
-    //margin: auto 1em 2em 2em;
-}*/
-
 i {
     font-size: 1.3em;
     margin-right: .5em;
@@ -50,16 +38,7 @@ p {
     margin: .2em auto
 }
 
-/*hr {
-    border: none;
-    background-color: lightgray;
-    height: 1px;
-}*/
-
 #header {
-    //text-align: center;
-    //position: fixed;
-    //top: 0px;
     width: 100vw;
     background-color: #F6EADA;
     color: #000000;
@@ -112,7 +91,6 @@ p {
     font-size: 2vw;
     letter-spacing: 0.05em;
     color: #000000;
-    //margin: 0.2em 0em 0em -0.2em;
     padding: 1em;
     display: table;
     width: 99vw;
@@ -123,10 +101,6 @@ p {
     display: table-cell;
     text-align: left;
 }
-
-/*#school_email {
-    text-align: center;
-}*/
 
 .box-shadow {
     //box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
@@ -170,7 +144,14 @@ p {
 
 .column {
     float: left;
-    width: 50%;
+    width: 100%;
+}
+
+@media only screen and (min-width: 2000px) {
+    .column {
+        float: left;
+        width: 50%;
+    }
 }
 
 #NC_State, #Clemson, #finger_tracking, #data_compression, #cadence, 
