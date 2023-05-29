@@ -72,6 +72,20 @@ p {
 
 @media screen only and (min-width: 2000px) {
     #title {
+        letter-spacing: 0.05em;
+        text-align: left;
+        font-family: 'Instrument Serif', serif;
+        padding: 0.2em 0.4em 0.4em 0.4em;
+        background-color: #F6EADA;
+        border-style: solid;
+        border-color: black;
+        border-width: 0.07em;
+        display: inline-block;
+        max-width: 33vw;
+        max-height: 50vh;
+        position: absolute;
+        left: 40vw;
+        z-index: 2;
         font-size: min(5vh,5vw);
         box-shadow: rgb(85, 91, 255) 0rem 0rem 0rem .2rem, rgb(31, 193, 27) 0rem 0rem 0rem .4rem, rgb(255, 217, 19) 0rem 0rem 0rem 0.6rem, rgb(255, 156, 85) 0rem 0rem 0rem 0.8rem, rgb(255, 85, 85) 0rem 0rem 0rem 1rem;
     }
@@ -90,8 +104,11 @@ p {
     #about {
         font-size: 3vw;
         text-align: left;
+        letter-spacing: 0.01em;
+        display: inline-block;
         position: absolute;
         top: min(25vh,25vw);
+        z-index: 1;
         padding: 1em;
     }
 }
@@ -182,6 +199,7 @@ p {
     #NC_State, #Clemson, #finger_tracking, #data_compression, #cadence, 
     #delta, #uta, #hkn, #cecas, #rhodes, #faculty, #honor_society, #sab,
     #eboa, #presidents_list, #professional {
+        min-width: fit-content;
         margin: 6vw;
         margin-top: 0.5em;
     }
@@ -204,6 +222,9 @@ p {
 
 @media screen only and (min-width: 2000px) {
     .one_column {
+        margin: auto;
+        width: fit-content;
+        margin-top: 0em;
         padding-bottom: 2em;
     }
 }
