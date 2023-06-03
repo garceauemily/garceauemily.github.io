@@ -72,8 +72,10 @@ p {
     border-width: 0.1em;
     display: inline-block;
     position: absolute;
-    right: 6vw;
+    left: 64vw;
     z-index: 2;
+    max-width: 33vw;
+    max-height: 50vh;
     box-shadow: rgb(85, 91, 255) 0rem 0rem 0rem 0.18rem, rgb(31, 193, 27) 0rem 0rem 0rem .36rem, rgb(255, 217, 19) 0rem 0rem 0rem 0.54rem, rgb(255, 156, 85) 0rem 0rem 0rem 0.72rem, rgb(255, 85, 85) 0rem 0rem 0rem 0.9rem;
 }
 
