@@ -101,17 +101,14 @@ p {
     letter-spacing: 0.05em;
     padding: 1em;
     text-align: center;
-    margin-top: 2em;
 }
 
 .contact_link {
     text-align: center;
     border-style: solid;
-    margin: 1em 3vw;
+    margin: 1em 20vw;
     padding: 1em;
     border-radius: 1em;
-    display: inline-block;
-    width: 20vw;
 }
 
 a {
@@ -120,17 +117,51 @@ a {
 }
 
 .contact-label {
-    font-size: 2vw;
+    font-size: 4vw;
 }
 
 .icon {
-    font-size: 3vw;
+    font-size: 4vw;
     padding-bottom: 0.5em;
     text-decoration: none;
 }
 
 .link {
-    font-size: 1.6vw;
+    font-size: 3vw;
+}
+
+@media only screen and (min-width: 1080px) {
+    #contact {
+        background-color: #F6EADA;
+        font-family: 'Instrument Serif', serif;
+        letter-spacing: 0.05em;
+        padding: 1em;
+        text-align: center;
+        margin-top: 2em;
+    }
+    
+    .contact_link {
+        text-align: center;
+        border-style: solid;
+        margin: 1em 3vw;
+        padding: 1em;
+        border-radius: 1em;
+        display: inline-block;
+        width: 20vw;
+    }
+    .contact-label {
+        font-size: 2vw;
+    }
+    
+    .icon {
+        font-size: 3vw;
+        padding-bottom: 0.5em;
+        text-decoration: none;
+    }
+    
+    .link {
+        font-size: 1.6vw;
+    }
 }
 
 /* mobile view */
