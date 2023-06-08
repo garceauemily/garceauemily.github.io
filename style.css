@@ -1,11 +1,14 @@
 html {
-    width: 100vw;
-    margin: 0em;
+
 }
 
 body {
     background-color: #F6EADA;
     margin: 0em;
+}
+
+main {
+   // margin-bottom: 1em;
 }
 
 section {
@@ -14,11 +17,6 @@ section {
 
 pink {
     color: #DB438F
-}
-
-a {
-    font-size: 1em;
-    padding-bottom: 1em;
 }
 
 i {
@@ -31,73 +29,47 @@ strong {
 }
 
 p {
-    margin: .2em auto
+    margin: .2em auto;
+    font-size: 1.3em;
 }
 
 #header {
-    width: 100vw;
     background-color: #F6EADA;
-    color: #000000;
     margin: -0.5em 0em;
     font-family: 'Instrument Serif', serif;
 }
 
-/* mobile view */
-#full_body {
-    width: 100vw;
-    margin: 0em;
-}
-
-@media only screen and (min-width: 1080px) {
-    #full_body {
-        width: 50vw;
-        height: auto;
-        max-height: 100vh;
-        max-width: 66.7vh;
-        display: inline-block;
-        margin: 0em;
-        margin-bottom: 1em;
-    }
-}
-
-/* mobile view */
-#title {
-    font-size: min(7vh,7vw);
-    letter-spacing: 0.05em;
+/*mobile view*/
+.name-row {
     text-align: left;
-    font-family: 'Instrument Serif', serif;
-    padding: 0.4em;
-    background-color: #F6EADA;
-    border-style: solid;
-    border-color: black;
-    border-width: 0.1em;
-    display: inline-block;
-    position: absolute;
-    left: 64vw;
-    z-index: 2;
-    max-width: 33vw;
-    max-height: 50vh;
-    box-shadow: rgb(85, 91, 255) 0rem 0rem 0rem 0.18rem, rgb(31, 193, 27) 0rem 0rem 0rem .36rem, rgb(255, 217, 19) 0rem 0rem 0rem 0.54rem, rgb(255, 156, 85) 0rem 0rem 0rem 0.72rem, rgb(255, 85, 85) 0rem 0rem 0rem 0.9rem;
+}
+
+/*mobile view*/
+#name {
+    width: fit-content;
+    margin: auto;
+    box-shadow: rgb(85, 91, 255) 0em 0em 0em .2em, rgb(31, 193, 27) 0em 0em 0em .4em, rgb(255, 217, 19) 0em 0em 0em 0.6em, rgb(255, 156, 85) 0em 0em 0em 0.8em, rgb(255, 85, 85) 0em 0em 0em 1em;
+    padding: 0.5em;
+    margin-bottom: 2em;
+    margin-top: 1em;
 }
 
 @media only screen and (min-width: 1080px) {
-    #title {
-        letter-spacing: 0.05em;
-        text-align: left;
-        font-family: 'Instrument Serif', serif;
-        padding: 0.2em 0.4em 0.4em 0.4em;
-        background-color: #F6EADA;
-        border-style: solid;
-        border-color: black;
-        border-width: 0.07em;
-        display: inline-block;
-        max-width: 33vw;
-        max-height: 50vh;
-        position: absolute;
-        left: 40vw;
-        z-index: 2;
-        font-size: min(5vh,5vw);
-        box-shadow: rgb(85, 91, 255) 0rem 0rem 0rem .2rem, rgb(31, 193, 27) 0rem 0rem 0rem .4rem, rgb(255, 217, 19) 0rem 0rem 0rem 0.6rem, rgb(255, 156, 85) 0rem 0rem 0rem 0.8rem, rgb(255, 85, 85) 0rem 0rem 0rem 1rem;
+
+    #name {
+        box-shadow: rgb(85, 91, 255) 0em 0em 0em .2em, rgb(31, 193, 27) 0em 0em 0em .4em, rgb(255, 217, 19) 0em 0em 0em 0.6em, rgb(255, 156, 85) 0em 0em 0em 0.8em, rgb(255, 85, 85) 0em 0em 0em 1em;
+        border-radius: 0em;
+        padding: 0.5em;
+        margin-left: 1em;
+        margin-top: 0.5em;
+        float: left;
+        font-size: 4vmin;
+    }
+
+    .name-row {
+        width: 100%;
+        //height: 30vh;
+        height: calc(8vmin + 18vh);
     }
 }
 
@@ -126,18 +98,39 @@ p {
 #contact {
     background-color: #F6EADA;
     font-family: 'Instrument Serif', serif;
-    font-size: 2vw;
     letter-spacing: 0.05em;
-    color: #000000;
     padding: 1em;
-    display: table;
-    width: 99vw;
-    table-layout: fixed;
+    text-align: center;
+    margin-top: 2em;
 }
 
 .contact_link {
-    display: table-cell;
-    text-align: left;
+    text-align: center;
+    border-style: solid;
+    margin: 1em 3vw;
+    padding: 1em;
+    border-radius: 1em;
+    display: inline-block;
+    width: 20vw;
+}
+
+a {
+    color: black;
+    display: inline-block;
+}
+
+.contact-label {
+    font-size: 2vw;
+}
+
+.icon {
+    font-size: 3vw;
+    padding-bottom: 0.5em;
+    text-decoration: none;
+}
+
+.link {
+    font-size: 1.6vw;
 }
 
 /* mobile view */
@@ -184,10 +177,6 @@ p {
     text-align: center;
 }
 
-p {
-    font-size: 1.3em;
-}
-
 /* mobile view */
 .column {
     width: fit-content;
@@ -219,12 +208,122 @@ p {
     }
 }
 
+.pic-column {
+    width: 100vw;
+}
+
+.text-column {
+    max-width: 100vw;
+    font-size: 2em;
+    text-align: center;
+    padding: 1.5em;
+    margin: 0em;
+}
+
 /* Clear floats after the columns */
 @media only screen and (min-width: 1080px) {
     .row:after {
         content: "";
         display: table;
         clear: both;
+    }
+
+    .head-row {
+        display: flex;
+    }
+
+    .pic-column {
+        --pic-width: min(66.7vh,100vw);
+        max-width: var(--pic-width);
+        }
+
+    .pic-container {
+        margin-bottom: 0em;
+    }
+
+    .text-column {
+        --pic-width: min(66.7vh,100vw);
+        max-width: calc(100vw - var(--pic-width));
+        flex: 1;
+        margin: 4vmax;
+        text-align: left;
+        padding: 0em;
+    }
+
+    #text-about {
+        //font-size: 5vh;
+        font-size: 1.35em;
+    }
+    @media only screen and (max-height: 700px) {
+        #text-about {
+            font-size: 1.15em;
+        }
+
+        @media only screen and (max-height: 500px) {
+            #text-about {
+                font-size: 1em;
+            }
+            
+            @media only screen and (max-height: 300px) {
+                #text-about {
+                    font-size: 0.7em;
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 1367px) {
+        #text-about {
+            //font-size: 4vh;
+            font-size: 1.2em;
+        }
+        @media only screen and (max-height: 600px) {
+            #text-about {
+                font-size: 1em;
+            }
+
+            @media only screen and (max-height: 400px) {
+                #text-about {
+                    font-size: 0.7em;
+                }
+
+                @media only screen and (max-height: 200px) {
+                    #text-about {
+                        font-size: 0.5em;
+                    }
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 1163px) {
+        #text-about {
+            font-size: 1.1em;
+        }
+
+        @media only screen and (max-height: 700px) {
+            #text-about {
+                font-size: 1em;
+            }
+        
+            @media only screen and (max-height: 500px) {
+                #text-about {
+                    font-size: 1em;
+                }
+
+                @media only screen and (max-height: 400px) {
+                    #text-about {
+                        font-size: 0.9em;
+                    }
+
+                    @media only screen and (max-height: 300px) {
+                        #text-about {
+                            font-size: 0.5em;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -245,6 +344,7 @@ p {
 }
 
 #professional {
+    margin-bottom: 10em;
 }
 
 ul {

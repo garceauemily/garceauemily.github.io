@@ -12,13 +12,21 @@
     </head>
     <body>
         <header id="header">
-            <div>
-                <img src="full-body.png" alt="Picture of Emily standing in her cap and gown." id="full_body">
-                <h1 id="title">Emily<br>Garceau</h1>
-                <!-- About -->
-                <a id="about">Hello! My name is <strong>Emily Garceau</strong>, and I recently graduated from Clemson University with my bachelor's degree in Computer Engineering. I am now a first-year PhD student at North
-                Carolina State University. My interests lie in the intersection of <strong>bioelectronics</strong>, 
-                <strong>human computer interaction</strong>, <strong>wearable technology</strong>, and <strong>mobile health</strong>.</a>
+            <div class="head-row">
+                <div class="pic-container">
+                    <img src="full-body.png" alt="Picture of Emily standing in her cap and gown." id="full_body" class="pic-column">
+                </div>
+                <div class="text-column">
+                    <div class="name-row">
+                        <div id="name">
+                            Emily<br>Garceau
+                        </div>
+                    </div>
+                    <div id="text-about">
+                        Hello! My name is Emily Garceau, and I recently graduated from Clemson University with my bachelor's degree in Computer Engineering. I am now a first-year PhD student at North Carolina State University. 
+                        My interests lie in the intersection of <strong>bioelectronics</strong>, <strong>human computer interaction</strong>, <strong>wearable technology</strong>, and <strong>mobile health</strong>.
+                    </div>
+                </div>
             </div>
         </header>
 
@@ -26,20 +34,23 @@
             <!-- Contact -->
             <section id="contact">
                 <!-- Personal Email -->
-                <span class="contact_link">
-                    <i class="fa fa-envelope" aria-hidden="true" href="mailto:garceauemily@gmail.com" target="_blank"></i>
-                    <a href="mailto:garceauemily@gmail.com" target="_blank">garceauemily@gmail.com</a>
-                </span>
+                <div class="contact_link">
+                    <div><a class="fa fa-envelope icon" aria-hidden="true" href="mailto:garceauemily@gmail.com" target="_blank"></a></div>
+                    <div class="contact-label">Personal Email</div>
+                    <div class="link"><a href="mailto:garceauemily@gmail.com" target="_blank">garceauemily@gmail.com</a></div>
+                </div>
                 <!-- Work Email -->
-                <span class="contact_link" id="school_email">
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                    <a href="mailto:egarcea@ncsu.edu" target="_blank">egarcea@ncsu.edu</a>
-                </span>
+                <div class="contact_link" id="school_email">
+                    <div><a class="fa fa-envelope icon" aria-hidden="true"href="mailto:egarcea@ncsu.edu" target="_blank"></a></div>
+                    <div class="contact-label">School Email</div>
+                    <div class="link"><a href="mailto:egarcea@ncsu.edu" target="_blank">egarcea@ncsu.edu</a></div>
+                </div>
                 <!-- LinkedIn -->
-                <span class="contact_link">
-                    <i class="fab fa-linkedin" aria-hidden="true"></i>
-                    <a href="https://www.linkedin.com/in/emily-garceau" target="_blank">linkedin.com/in/emily-garceau</a>
-                </span>
+                <div class="contact_link">
+                    <div><a class="fab fa-linkedin icon" aria-hidden="true" href="https://www.linkedin.com/in/emily-garceau" target="_blank"></a></div>
+                    <div class="contact-label"> LinkedIn</div>
+                    <div class="link"><a href="https://www.linkedin.com/in/emily-garceau" target="_blank">linkedin.com/in/emily-garceau</a></div>
+                </div>
             </section>
             <!-- Education -->
             <section id="education" class="row">
