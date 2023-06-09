@@ -42,17 +42,24 @@ p {
 /*mobile view*/
 .name-row {
     text-align: left;
+    background-color: #F6EADA;
 }
 
 /*mobile view*/
-#name {
-    width: fit-content;
-    margin: auto;
-    box-shadow: rgb(85, 91, 255) 0em 0em 0em .2em, rgb(31, 193, 27) 0em 0em 0em .4em, rgb(255, 217, 19) 0em 0em 0em 0.6em, rgb(255, 156, 85) 0em 0em 0em 0.8em, rgb(255, 85, 85) 0em 0em 0em 1em;
-    padding: 0.5em;
-    margin-bottom: 2em;
-    margin-top: 1em;
+@media only screen and (max-width: 1079px) {
+    .name-row {
+        position: absolute;
+        top: 8.5vw;
+        right: 12vw;
+    }
+
+    #name {
+        box-shadow: rgb(85, 91, 255) 0em 0em 0em 1vw, rgb(31, 193, 27) 0em 0em 0em 2vw, rgb(255, 217, 19) 0em 0em 0em 3vw, rgb(255, 156, 85) 0em 0em 0em 4vw, rgb(255, 85, 85) 0em 0em 0em 5vw;
+        padding: 2vw;
+        font-size: 6vw;
+    }
 }
+
 
 @media only screen and (min-width: 1080px) {
 
@@ -68,7 +75,6 @@ p {
 
     .name-row {
         width: 100%;
-        //height: 30vh;
         height: calc(8vmin + 18vh);
     }
 }
