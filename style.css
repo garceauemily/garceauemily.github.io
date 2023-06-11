@@ -224,6 +224,11 @@ a {
     .column {
         float: left;
         width: 50%;
+        margin: 0em;
+    }
+
+    .columns {
+        display: flex;
     }
 }
 
@@ -240,8 +245,14 @@ a {
     #delta, #uta, #hkn, #cecas, #rhodes, #faculty, #honor_society, #sab,
     #eboa, #presidents_list, #professional {
         min-width: fit-content;
-        margin: 6vw;
+        //margin: 6vw;
         margin-top: 0.5em;
+    }
+    #NC_State, #finger_tracking, #cadence, #uta, #hkn, #rhodes, #honor_society, #eboa {
+        margin-left: 8vw;
+    }
+    #Clemson, #data_compression, #delta, #cecas, #faculty, #sab, #presidents_list {
+        margin-right: 8vw
     }
 } 
 
@@ -411,10 +422,9 @@ ul {
 
 @media only screen and (min-width: 1080px) {
     .prog_container {
-        margin: auto;
         border-style: solid;
         border-width: 0.13em;
-        width: 45vw;
+        width: 38vw;
         height: 1.8em;
         text-align: right;
         font-size: 1.3em;
@@ -428,6 +438,15 @@ ul {
         text-align: left;
         float: left;
         border-radius: 0.6em;
+    }
+
+    .left {
+        margin-left: 8vw;
+        margin-right: 0em;
+    }
+    .right {
+        margin-right: 8vw;
+        margin-left: 0em;
     }
 }
 
