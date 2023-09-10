@@ -16,7 +16,11 @@ section {
 }
 
 pink {
-    color: #DB438F
+    color: #DB438F;
+}
+
+.pink {
+    background-color: #DB438F
 }
 
 i {
@@ -54,7 +58,8 @@ p {
     }
 
     #name {
-        box-shadow: rgb(85, 91, 255) 0em 0em 0em 1vw, rgb(31, 193, 27) 0em 0em 0em 2vw, rgb(255, 217, 19) 0em 0em 0em 3vw, rgb(255, 156, 85) 0em 0em 0em 4vw, rgb(255, 85, 85) 0em 0em 0em 5vw;
+        /*box-shadow: rgb(85, 91, 255) 0em 0em 0em 1vw, rgb(31, 193, 27) 0em 0em 0em 2vw, rgb(255, 217, 19) 0em 0em 0em 3vw, rgb(255, 156, 85) 0em 0em 0em 4vw, rgb(255, 85, 85) 0em 0em 0em 5vw;*/
+        box-shadow: rgb(251, 111, 146) 0em 0em 0em 1vw, rgb(255, 143, 171) 0em 0em 0em 2vw, rgb(255, 179, 198) 0em 0em 0em 3vw, rgb(255, 194, 209) 0em 0em 0em 4vw, rgb(255, 229, 236) 0em 0em 0em 5vw;
         padding: 2vw;
         font-size: 6vw;
     }
@@ -64,7 +69,8 @@ p {
 @media only screen and (min-width: 1080px) {
 
     #name {
-        box-shadow: rgb(85, 91, 255) 0em 0em 0em .2em, rgb(31, 193, 27) 0em 0em 0em .4em, rgb(255, 217, 19) 0em 0em 0em 0.6em, rgb(255, 156, 85) 0em 0em 0em 0.8em, rgb(255, 85, 85) 0em 0em 0em 1em;
+        /*box-shadow: rgb(85, 91, 255) 0em 0em 0em .2em, rgb(31, 193, 27) 0em 0em 0em .4em, rgb(255, 217, 19) 0em 0em 0em 0.6em, rgb(255, 156, 85) 0em 0em 0em 0.8em, rgb(255, 85, 85) 0em 0em 0em 1em;*/
+        box-shadow: rgb(251, 111, 146) 0em 0em 0em 0.2em, rgb(255, 143, 171) 0em 0em 0em 0.4em, rgb(255, 179, 198) 0em 0em 0em 0.6em, rgb(255, 194, 209) 0em 0em 0em 0.8em, rgb(255, 229, 236) 0em 0em 0em 1em;
         border-radius: 0em;
         padding: 0.5em;
         margin-left: 1em;
@@ -112,13 +118,16 @@ p {
 .contact_link {
     text-align: center;
     border-style: solid;
+    border-color: rgb(251, 111, 146);
+    border-width: 0.2em;
     margin: 1em 20vw;
     padding: 1em;
     border-radius: 1em;
 }
 
 a {
-    color: black;
+    /*color: black;*/
+    color: #DB438F;
     display: inline-block;
 }
 
@@ -149,6 +158,8 @@ a {
     .contact_link {
         text-align: center;
         border-style: solid;
+        border-color: rgb(251, 111, 146);
+        border-width: 0.2em;
         margin: 1em 3vw;
         padding: 1em;
         border-radius: 1em;
@@ -172,7 +183,8 @@ a {
 
 /* mobile view */
 .box-shadow {
-    box-shadow: rgb(85, 91, 255) 0em 0em 0em .2em, rgb(31, 193, 27) 0em 0em 0em .4em, rgb(255, 217, 19) 0em 0em 0em 0.6em, rgb(255, 156, 85) 0em 0em 0em 0.8em, rgb(255, 85, 85) 0em 0em 0em 1em;
+    /*box-shadow: rgb(85, 91, 255) 0em 0em 0em .2em, rgb(31, 193, 27) 0em 0em 0em .4em, rgb(255, 217, 19) 0em 0em 0em 0.6em, rgb(255, 156, 85) 0em 0em 0em 0.8em, rgb(255, 85, 85) 0em 0em 0em 1em;*/
+    box-shadow: rgb(251, 111, 146) 0em 0em 0em .2em, rgb(255, 143, 171) 0em 0em 0em .4em, rgb(255, 179, 198) 0em 0em 0em 0.6em, rgb(255, 194, 209) 0em 0em 0em 0.8em, rgb(255, 229, 236) 0em 0em 0em 1em;
     border-radius: 3em;
     padding: 2em;
     margin-bottom: 4em;
@@ -180,7 +192,8 @@ a {
 
 @media only screen and (min-width: 1080px) {
     .box-shadow {
-        box-shadow: rgb(85, 91, 255) 0em 0em 0em .2em, rgb(31, 193, 27) 0em 0em 0em .4em, rgb(255, 217, 19) 0em 0em 0em 0.6em, rgb(255, 156, 85) 0em 0em 0em 0.8em, rgb(255, 85, 85) 0em 0em 0em 1em;
+        /*box-shadow: rgb(85, 91, 255) 0em 0em 0em .2em, rgb(31, 193, 27) 0em 0em 0em .4em, rgb(255, 217, 19) 0em 0em 0em 0.6em, rgb(255, 156, 85) 0em 0em 0em 0.8em, rgb(255, 85, 85) 0em 0em 0em 1em;*/
+        box-shadow: rgb(251, 111, 146) 0em 0em 0em .2em, rgb(255, 143, 171) 0em 0em 0em .4em, rgb(255, 179, 198) 0em 0em 0em 0.6em, rgb(255, 194, 209) 0em 0em 0em 0.8em, rgb(255, 229, 236) 0em 0em 0em 1em;
         border-radius: 3em;
         padding: 2em;
     }
@@ -322,7 +335,7 @@ a {
 
     @media only screen and (max-width: 1367px) {
         #text-about {
-            //font-size: 4vh;
+            /*font-size: 4vh;*/
             font-size: 1.2em;
         }
         @media only screen and (max-height: 600px) {
