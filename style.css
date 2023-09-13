@@ -8,7 +8,7 @@ body {
 }
 
 main {
-   // margin-bottom: 1em;
+   /* margin-bottom: 1em;*/
 }
 
 section {
@@ -264,7 +264,7 @@ a {
     #NC_State, #finger_tracking, #cadence, #uta, #hkn, #rhodes, #honor_society, #eboa, #top100, #fellowships {
         margin-left: 8vw;
     }
-    #Clemson, #data_compression, #delta, #cecas, #faculty, #sab, #presidents_list {
+    #Clemson, #data_compression, #delta, #cecas, #faculty, #sab, #presidents_list, #fellowships {
         margin-right: 8vw
     }
 } 
@@ -312,7 +312,7 @@ a {
     }
 
     #text-about {
-        //font-size: 5vh;
+        /*font-size: 5vh;*/
         font-size: 1.35em;
     }
     @media only screen and (max-height: 700px) {
