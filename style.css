@@ -258,7 +258,7 @@ a {
     #delta, #uta, #hkn, #cecas, #rhodes, #faculty, #honor_society, #sab,
     #eboa, #presidents_list, #professional, #top100, #fellowships {
         min-width: fit-content;
-        //margin: 6vw;
+        /*margin: 6vw;*/
         margin-top: 0.5em;
     }
     #NC_State, #finger_tracking, #cadence, #uta, #hkn, #rhodes, #honor_society, #eboa, #top100, #fellowships {
