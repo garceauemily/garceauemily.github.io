@@ -261,10 +261,10 @@ a {
         /*margin: 6vw;*/
         margin-top: 0.5em;
     }
-    #NC_State, #finger_tracking, #cadence, #uta, #hkn, #rhodes, #honor_society, #eboa, #top100 {
+    #NC_State, #finger_tracking, #cadence, #uta, #hkn, #rhodes, #honor_society, #eboa, #fellowships {
         margin-left: 8vw;
     }
-    #Clemson, #data_compression, #delta, #cecas, #faculty, #sab, #presidents_list, #fellowships {
+    #Clemson, #data_compression, #delta, #cecas, #faculty, #sab, #presidents_list, #top100 {
         margin-right: 8vw
     }
 } 
