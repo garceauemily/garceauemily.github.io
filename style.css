@@ -248,7 +248,7 @@ a {
 /* mobile view */
 #NC_State, #Clemson, #finger_tracking, #data_compression, #cadence, 
 #delta, #uta, #hkn, #cecas, #rhodes, #faculty, #honor_society, #sab,
-#eboa, #presidents_list, #professional, #top100 {
+#eboa, #presidents_list, #professional, #top100, #fellowships {
     min-width: fit-content;
     margin: 3em;
 }
@@ -256,12 +256,12 @@ a {
 @media only screen and (min-width: 1080px) {
     #NC_State, #Clemson, #finger_tracking, #data_compression, #cadence, 
     #delta, #uta, #hkn, #cecas, #rhodes, #faculty, #honor_society, #sab,
-    #eboa, #presidents_list, #professional, #top100 {
+    #eboa, #presidents_list, #professional, #top100, #fellowships {
         min-width: fit-content;
         //margin: 6vw;
         margin-top: 0.5em;
     }
-    #NC_State, #finger_tracking, #cadence, #uta, #hkn, #rhodes, #honor_society, #eboa, #top100 {
+    #NC_State, #finger_tracking, #cadence, #uta, #hkn, #rhodes, #honor_society, #eboa, #top100, #fellowships {
         margin-left: 8vw;
     }
     #Clemson, #data_compression, #delta, #cecas, #faculty, #sab, #presidents_list {
