@@ -404,6 +404,22 @@ a {
     }
 }
 
+/* mobile view */
+.one_column_course {
+    margin: auto;
+    width: fit-content;
+    margin-top: 0em;
+}
+
+@media only screen and (min-width: 1080px) {
+    .one_column_course {
+        margin: auto;
+        width: 35em;
+        margin-top: 0em;
+        padding-bottom: 2em;
+    }
+}
+
 #professional {
     margin-bottom: 10em;
 }
