@@ -414,7 +414,7 @@ a {
 @media only screen and (min-width: 1080px) {
     .one_column_course {
         margin: auto;
-        width: 35em;
+        width: 40em;
         margin-top: 0em;
         padding-bottom: 2em;
     }
